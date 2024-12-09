@@ -1,6 +1,5 @@
 import { CarInput3 } from "../components/CartInput2"
 import { CarInput2 } from "../components/CarInput"
-import { CarInput4 } from "../components/CartInput2"
 import { CarInput } from "../components/CarInput"
 export default function MoreCars(){
     return(

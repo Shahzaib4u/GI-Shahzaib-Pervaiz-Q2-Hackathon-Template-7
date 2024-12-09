@@ -1,9 +1,6 @@
 'use clients'
-import Footer from "./components/Footer"
 import Heros from "./components/Heros"
 import CatalogueCar from "./components/CatalogueCar"
-import CartStructure from "./components/CartStructure"
-import SideBar from "./components/SideBar"
 
 
 export default function Home(){

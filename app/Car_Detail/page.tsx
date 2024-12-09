@@ -5,7 +5,6 @@ import Image from "next/image"
 import { Circle } from "lucide-react"
 import { ArrowUpDown } from "lucide-react"
 import { CarInput3 } from "../components/CartInput2"
-import { useState } from "react"
 export default function Car_Detail(){
     
 
