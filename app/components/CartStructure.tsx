@@ -57,6 +57,7 @@
 
 import { Heart } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 // Define the props type
 interface CartStructureProps {
@@ -110,9 +111,12 @@ const CartStructure = (props: CartStructureProps) => {
                     <p className="text-[14px] font-[700] text-slate-400">day</p>
                 </div>
                 <div className="w-[116px] h-[44px]">
+
+                    <Link href={'/Featuring_Car'}>
                     <button className="bg-[#3563E9] w-[116px] h-[44px] rounded-s pl-5 pr-5 cursor-pointer hover:bg-blue-600 hover:scale-105 transition-transform duration-200">
                         <h1 className="font-[500] text-white text-[16px]">Rent Now</h1>
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>

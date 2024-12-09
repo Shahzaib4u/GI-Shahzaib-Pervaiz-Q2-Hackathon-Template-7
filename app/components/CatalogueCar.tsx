@@ -2,6 +2,7 @@
 import { useState } from "react"
 import { CarInput } from "./CarInput"
 import { CarInput2 } from "./CarInput"
+import Link from "next/link"
 export default function CatalogueCar(){
     const [showMore,setShowMore]= useState(false)
     const toggleShowMore = () => setShowMore(!showMore);
@@ -14,7 +15,9 @@ export default function CatalogueCar(){
                         <p className="font-[600] text-xs text-center text-[#90A3BF]">Popular Car</p>
                     </div>
                     <div className="flex items-center w-[104px] h-[44px] rounded-sm pl-5 pr-5">
+                        <Link href={'/MoreCars'}>
                         <p className="text-[#3563E9] font-[600] text-xs text-center cursor-pointer">View All</p>
+                        </Link>
                     </div>
                 </div>
             <div className="w-[1312px] h-[388px] flex items-center">

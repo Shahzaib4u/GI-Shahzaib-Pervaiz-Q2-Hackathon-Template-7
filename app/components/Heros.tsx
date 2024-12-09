@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Circle } from "lucide-react"
 import { ArrowUpDown } from "lucide-react"
+import Link from "next/link"
 export default function Heros(){
     return(
         <div className="min-h-min  flex items-center mt-6 ml-14 mr-14 flex-col gap-8 bg-[#F6F7F9] ">
@@ -25,9 +26,11 @@ export default function Heros(){
                     <div className="h-[48px]">
                         <p className="font-[500] text-white text-[16px]">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
                     </div>
+                    <Link href={'/Car_Detail'}>
                     <button className="w-[120px] h-[44px] bg-[#3563E9] rounded-sm cursor-pointer  hover:bg-blue-600 hover:scale-105 transition-transform duration-200 ">
                         <h2 className="text-white font-[500] text-[16px]">Rental Car</h2>
                     </button>
+                    </Link>
                 </div>
                 </div>
               
@@ -70,9 +73,11 @@ export default function Heros(){
                         <p className="font-[500] text-white text-[16px]">Providing cheap car rental services and safe and comfortable facilities.</p>
                     </div>
                     <div>
+                    <Link href={'/Car_Detail'}>
                     <button className="w-[120px] h-[44px] bg-[#54A6FF] rounded-sm cursor-pointer  hover:bg-blue-600 hover:scale-105 transition-transform duration-200 ">
                         <h2 className="text-white font-[500] text-[16px] ">Rental Car</h2>
                     </button>
+                    </Link>
                     </div>
                 </div>  
                 </div>
